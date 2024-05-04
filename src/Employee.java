@@ -5,7 +5,7 @@ public class Employee {
     private final String fullName;
     private int department;
     private double salary;
-    private final Long id;
+    private final long id;
 
 
     public Employee(String fullName, int department, double salary) {
@@ -15,7 +15,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
@@ -58,6 +58,7 @@ public class Employee {
                 "fullName='" + fullName + '\'' +
                 ", department=" + department +
                 ", salary=" + salary +
+                ", id=" + id +
                 '}';
     }
 }
