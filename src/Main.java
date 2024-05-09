@@ -10,15 +10,14 @@ public class Main {
         employeeBook.add("Svetlov Kirill", 29000, 2);
 
 //        employeeBook.printAll(2);
-//        System.out.println(employeeBook.getSalarySum(2));
-//        employeeBook.changeSalaryByPercent(100,1);
+        System.out.println(employeeBook.getEmployeeWithMaxSalary());
+//        employeeBook.changeSalaryByPercent(100, 1);
 //        employeeBook.printAll();
 //        System.out.println();
-//       employeeBook.printAllNames();
-//       employeeBook.printAll();
+//        employeeBook.printAllNames();
+//        employeeBook.printAll();
 
 //        System.out.println(employeeBook.getById(2));
-
-        }
-
     }
+
+}
